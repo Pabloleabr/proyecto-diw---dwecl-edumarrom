@@ -192,6 +192,7 @@ h3+small {
   background-size: 150% 150%;
   background-position: 45% -10%;
   transform: rotate(-25deg);
+  filter: contrast(30%);
 }
 
 #notas {
@@ -199,6 +200,7 @@ h3+small {
   background-size: 180% 110%;
   background-position: 55% 40%;
   transform: rotate(-15deg);
+  filter: contrast(30%);
 }
 
 #dado {
@@ -206,6 +208,7 @@ h3+small {
   background-size: 115% 115%;
   background-position: 50% 80%;
   transform: rotate(-20deg);
+  filter: contrast(30%);
 }
 
 #cartas:hover,
@@ -213,6 +216,7 @@ h3+small {
 #dado:hover {
   cursor: pointer;
   transform: scale(1.1);
+  filter: contrast(100%);
 }
 
 hr {
@@ -301,7 +305,7 @@ hr {
   bottom: 0;
   left: 0;
   right: 0;
-  background: url('/mmedia/images/real-fernando.jpg');
+  background: url('//mmedia/images/real-fernando.jpg');
   background-position: center right -2vw;
   background-repeat: no-repeat;
   opacity: .2;

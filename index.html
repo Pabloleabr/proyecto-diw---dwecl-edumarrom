@@ -272,11 +272,17 @@
           <small>LinkedIn</small>
         </div>
         <div class="social">
-          <img src="mmedia/icons/github.png" width="50" alt="Enlace a mi GitHub">
+            <picture>
+                <source media="(max-width:650px)" srcset="mmedia/icons/github_big.png">
+                <source media="(max-width:480px)" srcset="mmedia/icons/github.png">
+
+                <img src="mmedia/icons/github.png" width="50" alt="Enlace a mi GitHub">
+
+            </picture>
           <small>GitHub</small>
         </div>
         <div class="social">
-          <img src="mmedia/icons/reddit.png" width="50" alt="Enlace a mi Reddit">
+          <img src="mmedia/icons/reddit.png" width="50" alt="Enlace a mi Reddit" style="filter: drop-shadow(0px 0px 20px blue);">
           <small>Reddit</small>
         </div>
       </div>
